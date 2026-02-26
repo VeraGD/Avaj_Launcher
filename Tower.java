@@ -7,13 +7,16 @@ public class Tower extends WeatherTower{
     private List<Flyable> observers; // con *
 
     public void register(Flyable p_flyable) { // con *
+        observers.add(p_flyable);
         // resgistra avion en su lista de vigilancia para avisarle de cosas
-        System.out.println("Tal avion despega");
+        // datos de flyable
+        System.out.println("Tower says: Balloon#" + p_flyable.getName() + "(" + p_flyable.getId() +") registered to weather tower.");
     }
 
     public void unregister(Flyable p_flyable) { // con *
+        miLista.remove(p_flyable.getId() + 1);
         // elimina avión de esa lista
-        System.out.println("Tal avion aterrizo");
+        System.out.println("Tower says: Balloon#" + p_flyable.getName() + "(" + p_flyable.getId() +") unregistered from weather tower.");
     }
 
     protected void conditionChanged() {

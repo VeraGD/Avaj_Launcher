@@ -20,4 +20,17 @@ public class Coordinates {
     public int getHeight() {
         return this.height;
     }
+
+    // new
+    public void updateLongitude(int rest) {
+        this.logitude = this.longitude + rest;
+    }
+
+    public void updateLatitude(int rest) {
+        this.latitude = this.latitude + rest;
+    }
+
+    public void updateHeight(int rest) {
+        this.height = this.height + rest;
+    }
 }

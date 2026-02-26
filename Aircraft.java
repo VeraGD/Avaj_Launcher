@@ -19,4 +19,12 @@ public abstract class Aircraft implements Flyable{
         this.name = p_name;
         this.coordinates = p_coordinates;
     }
+
+    private long getId() {
+        return this.id;
+    }
+
+    private String getName() {
+        return this.name;
+    }
 }

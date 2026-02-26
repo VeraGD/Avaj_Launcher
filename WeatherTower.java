@@ -1,6 +1,6 @@
 public class WeatherTower {
     public String getWeather(Coordinates p_coords) {
-        return "hola";
+        return getCurrentWeather(p_coords);
         // pregunta a weatherprovider que clima hay eb unas coordenadas
         // especificadas y devuelve el resultado
     }

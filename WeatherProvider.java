@@ -2,7 +2,7 @@ public class WeatherProvider {
     private String weather;
 
     private WeatherProvider(){
-        this.weather = "SUN";
+        this.weather = "hola"; // Que es esto
 
     }
 
