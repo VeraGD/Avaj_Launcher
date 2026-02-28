@@ -1,3 +1,5 @@
+package ro.academyplus.avaj.simulator;
+
 public class AircraftFactory {
     private static long id_counter = 0;
     private static AircraftFactory instance;
@@ -7,8 +9,8 @@ public class AircraftFactory {
         if (p_type.equals("Helicopter")) {
             return new Helicopter(id_counter, p_name, p_coordinates);
         }
-        else if (p_type.equals("Baloon")) {
-            return new Baloon(id_counter, p_name, p_coordinates);
+        else if (p_type.equals("Balloon")) {
+            return new Balloon(id_counter, p_name, p_coordinates);
         }
         else {
             return new JetPlane(id_counter, p_name, p_coordinates);
@@ -16,6 +18,7 @@ public class AircraftFactory {
         // METER EXCEPCIONES PARA SI NO ES UNA DE LAS TRES
     }
 
+    // SINGLETON
     private AircraftFactory() {}
 
     public static AircraftFactory getInstance() {

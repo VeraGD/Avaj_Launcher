@@ -1,9 +1,16 @@
+package ro.academyplus.avaj.simulator;
+
 public class WeatherProvider {
     private String weather;
+    private static WeatherProvider instance;
 
-    private WeatherProvider(){
-        this.weather = "hola"; // Que es esto
+    private WeatherProvider() {}
 
+     public static WeatherProvider getProvider() {
+        if (instance == null) {
+            instance = new WeatherProvider();
+        }
+        return instance;
     }
 
     public String getCurrentWeather(Coordinates coords) {

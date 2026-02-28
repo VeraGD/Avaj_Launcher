@@ -1,3 +1,5 @@
+package ro.academyplus.avaj.simulator;
+
 public class Coordinates {
     int longitude;
     int latitude;
@@ -6,7 +8,12 @@ public class Coordinates {
     Coordinates(int longitude, int latitude, int height) {
         this.longitude = longitude;
         this.latitude = latitude;
-        this.height = height;
+        if (height > 100) {
+            this.height = 100;
+        }
+        else {
+            this.height = height;
+        }
     }
 
     public int getLongitude() {
@@ -23,7 +30,7 @@ public class Coordinates {
 
     // new
     public void updateLongitude(int rest) {
-        this.logitude = this.longitude + rest;
+        this.longitude = this.longitude + rest;
     }
 
     public void updateLatitude(int rest) {
@@ -32,5 +39,8 @@ public class Coordinates {
 
     public void updateHeight(int rest) {
         this.height = this.height + rest;
+        if (this.height > 100) {
+            this.height = 100;
+        }
     }
 }

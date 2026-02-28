@@ -1,0 +1,76 @@
+Balloon#B1(1): Enjoying sauna!
+Balloon#B2(2): Who is smoking?
+JetPlane#J1(3): Just having a bath!
+Helicopter#H1(4): I don't see anything, Can someone clean the window?
+Helicopter#H2(5): I don't see anything, Can someone clean the window?
+Helicopter#H3(6): Too hot and spicy for meee!
+Balloon#B3(7): MMM fresh water Baby!
+JetPlane#J2(8): Flyng without eyes
+Helicopter#H4(9): Frozen worl! Let it go!
+Balloon#B1(1): Who is smoking?
+Balloon#B2(2): I'm changing myself into white
+JetPlane#J1(3): Flyng without eyes
+Helicopter#H1(4): Frozen worl! Let it go!
+Helicopter#H2(5): Frozen worl! Let it go!
+Helicopter#H3(6): Frozen worl! Let it go!
+Balloon#B3(7): Enjoying sauna!
+JetPlane#J2(8): I would like to land and make a snowman
+JetPlane#J2(8): landing!
+Tower says: JetPlane#J2(8) unregistered from weather tower.
+Balloon#B1(1): I'm changing myself into white
+Balloon#B2(2): Enjoying sauna!
+JetPlane#J1(3): I would like to land and make a snowman
+JetPlane#J1(3): landing!
+Tower says: JetPlane#J1(3) unregistered from weather tower.
+Helicopter#H2(5): Frozen worl! Let it go!
+Helicopter#H3(6): Frozen worl! Let it go!
+Balloon#B3(7): Who is smoking?
+Helicopter#H4(9): Frozen worl! Let it go!
+Balloon#B1(1): Enjoying sauna!
+Balloon#B2(2): Who is smoking?
+Helicopter#H1(4): Frozen worl! Let it go!
+Helicopter#H1(4): landing!
+Tower says: Helicopter#H1(4) unregistered from weather tower.
+Helicopter#H3(6): Frozen worl! Let it go!
+Balloon#B3(7): I'm changing myself into white
+Helicopter#H4(9): Frozen worl! Let it go!
+Balloon#B1(1): Who is smoking?
+Balloon#B2(2): I'm changing myself into white
+Helicopter#H2(5): Frozen worl! Let it go!
+Helicopter#H3(6): Frozen worl! Let it go!
+Balloon#B3(7): Enjoying sauna!
+Helicopter#H4(9): Frozen worl! Let it go!
+Balloon#B1(1): I'm changing myself into white
+Balloon#B1(1): landing!
+Tower says: Balloon#B1(1) unregistered from weather tower.
+Helicopter#H2(5): Frozen worl! Let it go!
+Helicopter#H2(5): landing!
+Tower says: Helicopter#H2(5) unregistered from weather tower.
+Balloon#B3(7): Who is smoking?
+Helicopter#H4(9): Frozen worl! Let it go!
+Helicopter#H4(9): landing!
+Tower says: Helicopter#H4(9) unregistered from weather tower.
+Balloon#B2(2): Enjoying sauna!
+Helicopter#H3(6): Frozen worl! Let it go!
+Balloon#B3(7): I'm changing myself into white
+Balloon#B2(2): Who is smoking?
+Helicopter#H3(6): Frozen worl! Let it go!
+Balloon#B3(7): Enjoying sauna!
+Balloon#B2(2): I'm changing myself into white
+Helicopter#H3(6): Frozen worl! Let it go!
+Balloon#B3(7): Who is smoking?
+Balloon#B2(2): Enjoying sauna!
+Helicopter#H3(6): Frozen worl! Let it go!
+Balloon#B3(7): I'm changing myself into white
+Balloon#B3(7): landing!
+Tower says: Balloon#B3(7) unregistered from weather tower.
+Balloon#B2(2): Who is smoking?
+Helicopter#H3(6): Frozen worl! Let it go!
+Helicopter#H3(6): landing!
+Tower says: Helicopter#H3(6) unregistered from weather tower.
+Balloon#B2(2): I'm changing myself into white
+Balloon#B2(2): Enjoying sauna!
+Balloon#B2(2): Who is smoking?
+Balloon#B2(2): I'm changing myself into white
+Balloon#B2(2): landing!
+Tower says: Balloon#B2(2) unregistered from weather tower.
