@@ -3,13 +3,10 @@ package ro.academyplus.avaj.simulator;
 import java.util.ArrayList;
 import java.util.List;
 
-// la fecla vacia es herencia -> extends
-// el rombo es que contiene una lista
-
 public class Tower {
-    private List<Flyable> observers = new ArrayList<>(); // con *
+    private List<Flyable> observers = new ArrayList<>();
 
-    public void register(Flyable p_flyable) { // con *
+    public void register(Flyable p_flyable) {
         observers.add(p_flyable);
 
         Aircraft p_aircraft = (Aircraft) p_flyable;
@@ -17,7 +14,7 @@ public class Tower {
         Logger.log("Tower says: Balloon#" + p_aircraft.getName() + "(" + p_aircraft.getId() +") registered to weather tower.");
     }
 
-    public void unregister(Flyable p_flyable) { // con *
+    public void unregister(Flyable p_flyable) {
         observers.remove(p_flyable);
 
         Aircraft p_aircraft = (Aircraft) p_flyable;

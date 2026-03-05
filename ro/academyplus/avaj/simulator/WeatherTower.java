@@ -1,15 +1,13 @@
 package ro.academyplus.avaj.simulator;
 
 public class WeatherTower extends Tower{
+    // return coordinates of a specific case
     public String getWeather(Coordinates p_coords) {
         return WeatherProvider.getProvider().getCurrentWeather(p_coords);
-        // pregunta a weatherprovider que clima hay eb unas coordenadas
-        // especificadas y devuelve el resultado
     }
 
+    // Simulation trigger. Calls the method that notifies all aircraft that the weather has changed.
     public void changeWeather(){
         this.conditionChanged();
-            // Disparador de la simulacion. llama al metodo que avisa a
-            // todos los aviones que el clima ha cambiado
     } 
 }

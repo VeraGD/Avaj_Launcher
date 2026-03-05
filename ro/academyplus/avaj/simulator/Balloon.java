@@ -16,19 +16,13 @@ public class Balloon extends Aircraft{
             this.coordinates.updateLongitude(2);
             this.coordinates.updateHeight(4);
             Logger.log("Balloon#" + this.getName() + "(" + this.getId() +"): Enjoying sauna!");
-        }
-
-        if (weather.equals("RAIN")) {
+        } else if (weather.equals("RAIN")) {
             this.coordinates.updateHeight(-5);
             Logger.log("Balloon#" + this.getName() + "(" + this.getId() +"): MMM fresh water Baby!");
-        }
-
-        if (weather.equals("FOG")) {
+        } else if (weather.equals("FOG")) {
             this.coordinates.updateHeight(-3);
             Logger.log("Balloon#" + this.getName() + "(" + this.getId() +"): Who is smoking?");
-        }
-
-        if (weather.equals("SNOW")) {
+        }else if (weather.equals("SNOW")) {
             this.coordinates.updateHeight(-15);
             Logger.log("Balloon#" + this.getName() + "(" + this.getId() +"): I'm changing myself into white");
         }

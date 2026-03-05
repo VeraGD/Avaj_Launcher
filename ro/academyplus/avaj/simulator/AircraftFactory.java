@@ -12,10 +12,11 @@ public class AircraftFactory {
         else if (p_type.equals("Balloon")) {
             return new Balloon(id_counter, p_name, p_coordinates);
         }
-        else {
+        else if (p_type.equals("JetPlane")){
             return new JetPlane(id_counter, p_name, p_coordinates);
+        } else {
+            return null;
         }
-        // METER EXCEPCIONES PARA SI NO ES UNA DE LAS TRES
     }
 
     // SINGLETON

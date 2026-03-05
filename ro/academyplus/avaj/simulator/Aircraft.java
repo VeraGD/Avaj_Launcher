@@ -1,16 +1,14 @@
 package ro.academyplus.avaj.simulator;
-// rombo relleno es que es hijo de, es decir, este es el padre de Coordinates
-// por lo que hay que hacer new de coordinates
 
 public abstract class Aircraft implements Flyable{
     protected long id;
     protected String name;
     protected Coordinates coordinates;
-    protected WeatherTower weatherTower; // aqui porque es hijo
+    protected WeatherTower weatherTower;
 
     public void registerTower(WeatherTower p_tower) {
-        this.weatherTower = p_tower;    // 1. EL AVIÓN GUARDA LA TORRE (Vital)
-        this.weatherTower.register(this); // 2. LA TORRE GUARDA AL AVIÓN
+        this.weatherTower = p_tower;    // Tower registered by the plane
+        this.weatherTower.register(this); // tower register the plane
     }
 
     protected Aircraft(long p_id, String p_name, Coordinates p_coordinates) {
