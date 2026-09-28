@@ -32,7 +32,7 @@ The main goal of this project is to development and to understand robust Object-
 ### Compilation & Execution
 1. Clone the repository:
   ```java
-  git clone [https://github.com/tu-usuario/avaj_launcher.git](https://github.com/tu-usuario/avaj_launcher.git)
+  git clone [https://github.com/VeraGD/Avaj_Launcher](https://github.com/VeraGD/Avaj_Launcher)
   cd avaj_launcher
   ```
 
